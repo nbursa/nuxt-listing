@@ -1,75 +1,34 @@
-# Nuxt Minimal Starter
+# Scholarship Winners App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Nuxt 3 application built with TypeScript, PrimeVue, and server-side rendering (SSR) to display a list of scholarship winners from a JSON:API endpoint.
 
-## Setup
+## 🧩 Tech Stack
 
-Make sure to install dependencies:
+- **Nuxt 3** with SSR
+- **TypeScript**
+- **PrimeVue 4**
+
+## 📦 Features
+
+- Fetches and displays data from API
+- Uses `useAsyncData` for SSR data fetching
+- PrimeVue `DataTable` for clean tabular UI
+- Pagination via PrimeVue `Paginator`
+- Loading state with `ProgressSpinner`
+
+## Running app
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Visit [http://localhost:3000](http://localhost:3000) to see the app.
 
-Build the application for production:
+## ✅ Requirements
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- ✅ TypeScript support
+- ✅ SSR via `useAsyncData`
+- ✅ PrimeVue components (DataTable, Column, Paginator, Spinner)
+- ✅ JSON:API compliant parsing
+- ✅ Pagination, loading and error UI
