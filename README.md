@@ -2,13 +2,13 @@
 
 A Nuxt 3 application built with TypeScript, PrimeVue, and server-side rendering (SSR) to display a list of scholarship winners from a JSON:API endpoint.
 
-## 🧩 Tech Stack
+## Tech Stack
 
 - **Nuxt 3** with SSR
 - **TypeScript**
 - **PrimeVue 4**
 
-## 📦 Features
+## Features
 
 - Fetches and displays data from API
 - Uses `useAsyncData` for SSR data fetching
@@ -25,10 +25,10 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) to see the app.
 
-## ✅ Requirements
+## Requirements
 
-- ✅ TypeScript support
-- ✅ SSR via `useAsyncData`
-- ✅ PrimeVue components (DataTable, Column, Paginator, Spinner)
-- ✅ JSON:API compliant parsing
-- ✅ Pagination, loading and error UI
+- TypeScript support
+- SSR via `useAsyncData`
+- PrimeVue components (DataTable, Column, Paginator, Spinner)
+- JSON:API compliant parsing
+- Pagination, loading and error UI
