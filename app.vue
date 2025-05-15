@@ -1,7 +1,17 @@
 <template>
-  <div>
+  <div id="app">
     <NuxtRouteAnnouncer />
-    <h1>Nuxt</h1>
-    <Button label="Verify" />
+    <NuxtPage />
   </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+  link: [
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
+    },
+  ],
+});
+</script>
